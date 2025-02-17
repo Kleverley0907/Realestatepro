@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignmentSix</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="innerNav genLayout">
+              <div class="logo">
+                <i class="fa-solid fa-signal"></i>
+                <h3>TerraSpace</h3>
+              </div>
+              
+              <!-- hamburger code -->
+               <label class="hamburgerLabel" for="toggle">&#9776;</label>
+               <input type="checkbox" id="toggle">
+              
+                <div class="navRight">
+                    <div class="middleNav">
+                        <a href="#"><p><span>Home</span></p></a>
+                       <a href="#">About Us</a>
+                        <a href="#property">
+                          property
+                          <select style="border: none; color: gray;"></select>
+                        </a>
+                        <a href="#">Blogs</a>
+                      </div>
+            
+                      <div class="navBtn">
+                        <button class="navButton">Let's Talk <i class="fa-solid fa-arrow-trend-up"></i></button>
+                      </div>
+                    </div>
+              </div>
+          </nav>
+
+          <div class="banner genLayout">
+            <div class="bannerCard">
+                <h3>Designing your next chapter<span>⚪</span></h3>
+                <p>
+                  where dreams becomes apartment: transforming visions into <br>vibrant
+                  living spaces
+                </p>
+                <div class="down">
+                    <div class="explore">
+                        <button class="exploreBtn">Explore projects<i class="fa-solid fa-arrow-trend-up"></i></button>
+                      </div>
+                      <div class="icon">
+                        <button class="iconBtn"> <i class="fa-solid fa-play"></i></button>
+                        <p>Our Process</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+                <!-- <div class="bannerCircles"> 
+                    <div class="circleImage">
+                      <img
+                        src="https://as1.ftcdn.net/v2/jpg/06/48/59/24/1000_F_648592415_lcFI5DRcluQAUvOuDshcYzrZhiJ17nvF.jpg"
+                        alt="male"
+                      />
+                    </div>
+                    <div class="circleImage">
+                      <img
+                        src="https://t4.ftcdn.net/jpg/03/84/73/17/240_F_384731713_XnB4bPUxAehqZu6gmbmu6pzNIuEDRhWo.jpg"
+                        alt="male"
+                      />
+                    </div>
+                    <div class="circleImage">
+                      <img
+                        src="https://t3.ftcdn.net/jpg/10/25/93/34/240_F_1025933473_lNKCo2B3i3BFKvcH50oUZn4IE5SsaKfu.jpg"
+                        alt="female"
+                      />
+                    </div>
+                    <div class="circleImage">
+                      <img
+                        src="https://t3.ftcdn.net/jpg/06/36/70/68/240_F_636706810_9hHTX7DngsVwhMZuii2gwIpPyJV2a0x0.jpg"
+                        alt="male"
+                      />
+                    </div>
+          
+                    <div class="bannerRating">
+                      <p>50k+ Happy Clients</p>
+                      <span>⭐⭐⭐⭐⭐ 4.5/5</span>
+                    </div>
+              </div>  -->
+    </header>
+
+    <!-- MAIN SECTION -->
+
+    <main>
+        <!-- First Section -->
+        <section>
+            <div class="firstSection genLayout">
+                <div class="grid1">
+                    <div class="item one">
+                      <div class="itemOneImage">
+                        <img src="Images/house1.jpeg" alt="whitehouse" />
+                      </div>
+                      <div class="itemOneContent">
+                        <h3>Find your dream property at the best price</h3>
+                        <p>
+                          we support our clients at every stage of the buying and
+                          selling process, ensuring a seamless and stress-free
+                          experience from start to finish.
+                        </p>
+                        <div class="learn">
+                          <button class="learnBtn">Learn More <i class="fa-solid fa-arrow-trend-up"></i></button>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="item two">
+                      <h4>100k+</h4>
+                      <p>property Constructed</p>
+                    </div>
+                    <div class="item three">
+                      <h4>100+</h4>
+                      <p>Award winning</p>
+                    </div>
+                    <div class="item four">
+                      <h4>50k+</h4>
+                      <p>Satisfied Clients</p>
+                    </div>
+                    <div class="item five">
+                      <h4>5+</h4>
+                      <p>years of experience</p>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <!-- Second Section -->
+         <section>
+            <div class="propertyWrapper genLayout">
+                <div class="propertyHeading">
+                    <h1>explore our highy rated apartments & buildings</h1>
+
+                    <div class="propertyTabs">
+                        <a href="#">Featured</a>
+                        <a href="#">apartment</a>
+                        <a href="#">condominium</a>
+                        <a href="#">residential</a>
+                        <a href="#">cottage</a>
+                    </div>
+                </div>
+
+                <!-- property Card Container -->
+                 <div class="propertyCardContainer" id="property">
+                    <!-- First Card -->
+                     <div class="propertyCard">
+                        <img src="Images/house1.jpeg" alt="property image">
+
+                        <h6><i class="fa-solid fa-location-dot"></i> 23 sunnyvale rd</h6>
+
+                        <div class="detailInfo">
+                            <h3>sunnyvale retreat</h3>
+                            <h2>$450,000</h2>
+                        </div>
+
+                        <div class="roomInfo">
+                            <span><i class="fa-solid fa-bed"></i> 4 beds |</span>
+                            <span><i class="fa-solid fa-bath"></i> 3 baths| </span>
+                            <span><i class="fa-solid fa-square-rss"></i> 2,500 sq.ft</span>
+                        </div>
+                     </div>
+
+                    <!-- Second Card -->
+                     <div class="propertyCard">
+                        <img src="Images/house2.png" alt="property image">
+
+                        <h6><i class="fa-solid fa-location-dot"></i> 42 aspen heights</h6>
+
+                        <div class="detailInfo">
+                            <h3>mountainview villa</h3>
+                            <h2>$360,000</h2>
+                        </div>
+
+                        <div class="roomInfo">
+                            <span><i class="fa-solid fa-bed"></i> 5 beds |</span>
+                            <span><i class="fa-solid fa-bath"></i> 4 baths| </span>
+                            <span><i class="fa-solid fa-square-rss"></i> 3,800 sq.ft</span>
+                        </div>
+                     </div>
+
+                    <!-- Third Card -->
+                     <div class="propertyCard">
+                        <img src="Images/house3.webp" alt="property image">
+
+                        <h6><i class="fa-solid fa-location-dot"></i> cape cod, MA</h6>
+
+                        <div class="detailInfo">
+                            <h3>Seaside cottage</h3>
+                            <h2>$570,000</h2>
+                        </div>
+
+                        <div class="roomInfo">
+                            <span><i class="fa-solid fa-bed"></i> 3 beds |</span>
+                            <span><i class="fa-solid fa-bath"></i> 2 baths| </span>
+                            <span><i class="fa-solid fa-square-rss"></i> 1,200 sq.ft</span>
+                        </div>
+                     </div>
+
+                    <!-- Fourth Card -->
+                     <div class="propertyCard">
+                        <img src="Images/modern1.jpg" alt="property image">
+
+                        <h6><i class="fa-solid fa-location-dot"></i> cityview st, chicago</h6>
+
+                        <div class="detailInfo">
+                            <h3>urban little oasis</h3>
+                            <h2>$825,000</h2>
+                        </div>
+
+                        <div class="roomInfo">
+                            <span><i class="fa-solid fa-bed"></i> 5 beds |</span>
+                            <span><i class="fa-solid fa-bath"></i> 3 baths| </span>
+                            <span><i class="fa-solid fa-square-rss"></i> 4,500 sq.ft</span>
+                        </div>
+                     </div>
+
+                    <!-- Fifth Card -->
+                     <div class="propertyCard">
+                        <img src="Images/house5.jpg" alt="property image">
+
+                        <h6><i class="fa-solid fa-location-dot"></i> lakefront, tahoe</h6>
+
+                        <div class="detailInfo">
+                            <h3>lakeside manor</h3>
+                            <h2>$575,000</h2>
+                        </div>
+
+                        <div class="roomInfo">
+                            <span><i class="fa-solid fa-bed"></i> 3 beds |</span>
+                            <span><i class="fa-solid fa-bath"></i> 2 baths| </span>
+                            <span><i class="fa-solid fa-square-rss"></i> 1,500 sq.ft</span>
+                        </div>
+                     </div>
+
+                    <!-- Sixth Card -->
+                     <div class="propertyCard">
+                        <img src="Images/house6.jpg" alt="property image">
+
+                        <h6><i class="fa-solid fa-location-dot"></i> ranch rd, tx</h6>
+
+                        <div class="detailInfo">
+                            <h3>country charm</h3>
+                            <h2>$460,000</h2>
+                        </div>
+
+                        <div class="roomInfo">
+                            <span><i class="fa-solid fa-bed"></i> 3 beds |</span>
+                            <span><i class="fa-solid fa-bath"></i> 2 baths| </span>
+                            <span><i class="fa-solid fa-square-rss"></i> 2,000 sq.ft</span>
+                        </div>
+                     </div>
+
+                    
+                 </div>
+
+                 <div class="viewBtn">
+                    <button class="viewButton">view more  <i class="fa-solid fa-arrow-trend-up"></i></button>
+                </div>
+            </div> 
+         </section>
+
+         <!-- Third Section -->
+
+         <section>
+            <div class="servicesWrapper genLayout">
+                <div class="servicesHeading">
+                    <h3>Highlights of our real-estate expertise</h3>
+                </div>
+
+                <div class="services">
+                    <!-- first Card -->
+                    <div class="servicesCard">
+                        <i class="fa-solid fa-chart-column"></i>
+                        <h4>Market Analysis</h4>
+                        <p>
+                          Indepth understanding of market trends to guide pricing and
+                          strategy
+                        </p>
+                      </div>
+                      <!-- Second Card -->
+                      <div class="servicesCard">
+                        <i class="fa-solid fa-house-circle-check"></i>
+                        <h4>Property Valuation</h4>
+                        <p>
+                          Accurate assessments to determine the true value of your
+                          favourite apartment, cottage etc.
+                        </p>
+                      </div>
+                      <!-- Third Card -->
+                      <div class="servicesCard">
+                        <i class="fa-regular fa-newspaper"></i>
+                        <h4>Legal Assistance</h4>
+                        <p>
+                          Helping clients navigate the complexities of legal paperwork to
+                          ensure a smooth transaction
+                        </p>
+                      </div>
+                      <!-- Fourth Card -->
+                      <div class="servicesCard">
+                        <i class="fa-solid fa-user"></i>
+                        <h4>Post-Sale Support</h4>
+                        <p>
+                          Providing assistance even after the sal, ensuring clients feel
+                          supported throughout their journey
+                        </p>
+                      </div>
+                      <!-- Fifth Card -->
+                      <div class="servicesCard">
+                        <i class="fa-solid fa-message"></i>
+                        <h4>Negotiation Skils</h4>
+                        <p>
+                          Indepth understanding of market trends to guide pricing and
+                          strategy
+                        </p>
+                      </div>
+                      <!-- Sixth Card -->
+                      <div class="servicesCard">
+                        <i class="fa-solid fa-chart-column"></i>
+                        <h4>Tailored Marketing Plans</h4>
+                        <p>
+                          Developing customized strategies to showcase properties and
+                          attract buyers
+                        </p>
+                      </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Fourth Section -->
+
+         <section>
+            <div class="fourthSection genLayout">
+                <div class="discoverHeading">
+                        <h3>Discover Stylish Spaces and Inspiring Details</h3>
+                        <div class="listing">
+                          <button class="listingBtn">View Listings <i class="fa-solid fa-arrow-trend-up"></i></button>
+                      </div>
+                </div>
+
+                <div class="discover">
+                   <div class="discoverTop">
+                    <div class="discoverCard one">
+                        <div class="discoverImage">
+                            <img src="Images/discover1.jpg" alt="modern House">
+                        </div>
+                         <div class="details">
+                            <p>View Details</p>
+                        </div>
+                    </div>
+                    <div class="discoverCard ">
+                        <div class="discoverImage">
+                            <img src="Images/discover2.jpg" alt="modern House">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="discoverBottom">
+                    <div class="discoverCard">
+                        <div class="discoverImage">
+                            <img src="Images/discover3.jpg" alt="modern House">
+                        </div>
+                    </div>
+                    <div class="discoverCard two">
+                        <div class="discoverImage">
+                            <img src="Images/discover4.jpg" alt="modern House">
+                        </div>
+                    </div>
+                    <div class="discoverCard">
+                        <div class="discoverImage">
+                            <img src="Images/discover7.jpg" alt="modern House">
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Fifth Section -->
+          <section>
+            <div class="secondBanner genLayout">
+                <div class="secondBannerCard">
+                  <h3>what makes us your ideal real estate partner?</h3>
+                  <p>
+                    Our knowledge team provides trusted expertise for informed real
+                    estate decisions, offering tailored support to meet your unique
+                    needs and demonstrating proven success through a strong track
+                    record of clients satisfactions.
+                  </p>
+                  <div class="last">
+                    <div class="contact">
+                      <button class="contactBtn">Contact Us  <i class="fa-solid fa-arrow-trend-up"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>
+
+          <!-- Sixth Section -->
+
+          <section>
+            <div class="questionSection genLayout">
+                <div class="questionsHeading">
+                    <h3>frequently asked questions</h3>
+                </div>
+
+                    <div class="questions">
+                        <div class="accordion">
+                            <input type="radio" name="questionAccordion" id="section1" class="accordionInput">
+                            <div class="accordionPlus">
+                                <label for="section1" class="accordionLabel">What services do you offer for real estate clients?</label>
+                                <span>+</span>
+                            </div>
+                            <div class="accordionContent">
+                                We provide comprehensive services, including market analysis,
+                                proprty valuation, tailored Marketing strategies and legal
+                                documentation assistance to ensure a smooth buying or selling
+                                process
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <input type="radio" name="questionAccordion" id="section2" class="accordionInput">
+                            <div class="accordionPlus">
+                                <label for="section2" class="accordionLabel">How can I get started with your services?</label>
+                                <span>+</span>
+                            </div>
+                            <div class="accordionContent">
+                                We provide comprehensive services, including market analysis,
+                                proprty valuation, tailored Marketing strategies and legal
+                                documentation assistance to ensure a smooth buying or selling
+                                process
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <input type="radio" name="questionAccordion" id="section3" class="accordionInput">
+                            <div class="accordionPlus">
+                                <label for="section3" class="accordionLabel">How do you assist with legal documentation?</label>
+                                <span>+</span>
+                            </div>
+                            <div class="accordionContent">
+                                We provide comprehensive services, including market analysis,
+                                proprty valuation, tailored Marketing strategies and legal
+                                documentation assistance to ensure a smooth buying or selling
+                                process
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <input type="radio" name="questionAccordion" id="section4" class="accordionInput">
+                            <div class="accordionPlus">
+                                <label for="section4" class="accordionLabel">Can you help me find the right property?</label>
+                                <span>+</span>
+                            </div>
+                            <div class="accordionContent">
+                                We provide comprehensive services, including market analysis,
+                                proprty valuation, tailored Marketing strategies and legal
+                                documentation assistance to ensure a smooth buying or selling
+                                process
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- Seventh section -->
+
+          <section>
+            <div class="seventhSection genLayout">
+                <div class="clientHeading">
+                    <h3>What our clients are saying</h3>
+                </div>
+
+                <div class="client">
+                    <div class="clientImage">
+                        <img src="images/Client.jpg" alt="client" />
+                      </div>
+            
+                      <div class="clientDetails">
+                        <h3>Tom Holland</h3>
+                        <h4>Seattle WA</h4>
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <p>
+                          Working with this team was a great changer! Their expertise and
+                          personalized approach made buying my first home a breeze. They
+                          took the time to understand my needs and guided me through every
+                          step, makimg the process feel seamless, I felt confdent and
+                          well-informed, and I couldn't have asked for a better experience.
+                        </p>
+                        <h5>Tom Holland</h5>
+                        <div class="clientArrow">
+                            <button class="clientBtn1">
+                                <i class="fa-solid fa-angle-left left"></i>
+                            </button>
+                            <button class="clientBtn2">
+                                <i class="fa-solid fa-angle-right right"></i>
+                            </button>
+                          </div>
+                      </div>
+                     
+                </div>
+            </div> 
+          </section>
+
+          <!-- Eighth Section -->
+
+          <section>
+            <div class="eightSection">
+                <div class="blogHeading">
+                    <h3>Latest Blogs & Articles</h3>
+                </div>
+
+                <div class="blogWrapper">
+                    <div class="blogCards blogArticle">
+                        <div class="blogImage">
+                            <img src="Images/blog1.jpeg" alt="">
+                        </div>
+                        <p>6 min read</p>
+                        <h4> Legal Essentials: understanding documentation in real estate
+                            transactions
+                        </h4>
+                        <div class="article">
+                            <p>read article</p>
+                          </div>
+                    </div>
+                    <div class="blogCards">
+                        <div class="blogImage">
+                            <img src="Images/blog2.webp" alt="">
+                        </div>
+                        <p>5 min read</p>
+                        <h4>
+                            The importance of property valuation: getting the best price for
+                            your home
+                          </h4>
+                    </div>
+                    <div class="blogCards">
+                        <div class="blogImage">
+                            <img src="Images/blog3.webp" alt="">
+                        </div>
+                        <p>4 min read</p>
+                        <h4>
+                            how to choose the right legal work for property: getting legal
+                            advice on your purchase
+                          </h4>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- footer -->
+
+          <footer>
+            <div class="footer">
+              <div class="footerWrapper">
+                <div class="footerRight">
+                  <div class="terra">
+                    <i class="fa-solid fa-signal"></i>
+                    <h3>TerraSpace</h3>
+                  </div>
+                  <p>
+                    Where Your Dream Space Becomes <br />
+                    Reality. Building Futures. One Property At a <br />
+                    Time
+                  </p>
+                  <h4>Are you finding a home?</h4>
+                  <div class="email">
+                    <p>Email address</p>
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                  </div>
+                  <span><input type="text" /></span>
+                </div>
+      
+                <div class="footerLeft">
+                  <ul>
+                    <h4>Explore</h4>
+                    <li>Buy</li>
+                    <li>Rent</li>
+                    <li>Short Term</li>
+                    <li>New Project</li>
+                    <li>List Your Property</li>
+                  </ul>
+                  <ul>
+                    <h4>Services</h4>
+                    <li>Property Management</li>
+                    <li>Property Valuation</li>
+                    <li>Property Exchange</li>
+                    <li>Legal Agreement</li>
+                  </ul>
+                  <ul>
+                    <h4>Quick Links</h4>
+                    <li>Blogs</li>
+                    <li>FAQ</li>
+                    <li>Reviews</li>
+                  </ul>
+                </div>
+              </div>
+      
+              <div class="copyRight">
+                <div class="copy">
+                  <i class="fa-regular fa-copyright"></i>
+                  <p>2024 frametix All right reserved</p>
+                </div>
+      
+                <div class="copyPolicy">
+                  <p>Privacy</p>
+                  <p>Country Sitemap</p>
+                  <p>Cookie Policy</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+    </main>
+</body>
+</html>
