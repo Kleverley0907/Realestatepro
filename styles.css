@@ -786,10 +786,10 @@ body{
     overflow: hidden;
 }
 
- /* .blogCards {
-     border: 1px solid black;
-    height: 52vh; 
-}  */
+ .blogCards {
+    border: 1px solid black;
+    height: 52vh;
+} 
 
 .blogImage{
     /* border: 1px solid blue; */
@@ -1221,7 +1221,7 @@ ul > h4{
     }
 
     .propertyCardContainer {
-        width: 390px;
+        width: 90%;
         margin: 3rem auto 3rem;
         grid-template-columns: 1fr;
     }
@@ -1231,7 +1231,7 @@ ul > h4{
     }
 
     .services {
-        width: 390px;
+        width: 90%;
         margin: 3rem auto 3rem;
         grid-template-columns: 1fr;
     }
@@ -1245,7 +1245,8 @@ ul > h4{
 
     .discoverHeading > h3 {
         font-size: 2rem;
-        max-width: 400px;
+        width: 90%;
+        margin: auto;
     }
 
     .listing {
@@ -1254,7 +1255,7 @@ ul > h4{
     }
 
     .discover {
-        width: 390px;
+        width: 90%;
         margin: 3rem auto 3rem;
         grid-template-columns: 1fr;
     }
@@ -1276,7 +1277,7 @@ ul > h4{
     }
 
     .secondBanner {
-        width: 390px;
+        width: 90%;
         margin: 3rem auto 3rem;
     }
     
@@ -1298,7 +1299,7 @@ ul > h4{
     }
 
     .questions {
-        max-width: 390px;
+        max-width: 90%;
         margin: 3rem auto 3rem;
     }
 
@@ -1309,18 +1310,28 @@ ul > h4{
     }
 
     .seventhSection {
-        max-width: 390px;
+        max-width: 90%;
         margin: 3rem auto 3rem;
+    }
+
+    .clientImage{
+        width: 48%;
+        height: 55vh;
+    }
+    
+    
+    .clientDetails{
+        width: 50%;
     }
 
     .clientHeading {
         font-size: 1.7rem;
-        max-width: 390px;
+        max-width: 90%;
         text-align: center;
     }
 
     .eightSection {
-        max-width: 390px;
+        max-width: 90%;
         margin: 3rem auto 3rem;
     }
 
@@ -1344,7 +1355,7 @@ ul > h4{
 
     .footerWrapper {
         flex-direction: column;
-        max-width: 350px;
+        max-width: 85%;
         margin: 3rem auto 3rem
     }
 
