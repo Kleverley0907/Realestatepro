@@ -644,30 +644,13 @@ body{
 .clientHeading {
     margin: 5rem auto;
     /* border: 1px solid red; */
-    width: 550px;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .clientHeading > h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    font-weight: 600;
-    text-transform: capitalize;
-    margin: auto;
-}
-
-.clientTitle{
-    margin: 5rem auto;
-    /* border: 1px solid red; */
-    width: 550px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.clientTitle > h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 600;
@@ -786,11 +769,7 @@ body{
     overflow: hidden;
 }
 
- .blogCards {
-    border: 1px solid black;
-    height: 52vh;
-} 
-
+ 
 .blogImage{
     /* border: 1px solid blue; */
     width: 100%;
@@ -1332,8 +1311,23 @@ ul > h4{
 
     .eightSection {
         max-width: 90%;
-        margin: 3rem auto 3rem;
+        margin:  auto ;
     }
+
+    .blogCards {
+        height: 52vh;
+    }
+
+    
+    .blogCards > p{
+        border: 1px solid black;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .blogCards > h4{
+        font-size: 14px;
+    }
+    
 
     .blogWrapper {
         grid-template-rows: 1fr;
@@ -1350,7 +1344,7 @@ ul > h4{
 
     .article {
         left: 2rem;
-        top: 3rem;
+        top: 4.5rem;
     }
 
     .footerWrapper {
